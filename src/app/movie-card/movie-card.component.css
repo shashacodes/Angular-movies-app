@@ -1,0 +1,64 @@
+.card {
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 1rem 1.5rem;
+}
+
+.movie-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.movie-genre {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #999;
+  margin-bottom: 0.8rem;
+}
+
+.movie-description {
+  font-size: 0.9rem;
+  color: #ccc;
+  height: 4.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-rating {
+  background-color: #ffc107;
+  color: #222;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.movie-link {
+  color: #1e90ff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.movie-link:hover {
+  text-decoration: underline;
+}
